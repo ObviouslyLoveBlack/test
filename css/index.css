@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+/* 头部 */
+header{
+    width: 100%;
+    height: 45px;
+    background-color: #e3e4e5;
+}
+header .DW{
+     width: 65px;
+     height: 45px;
+     border: 1px solid red;
+     margin-left: 210px;
+     line-height: 45px;
+     float: left;  
+}
+header .DW i{
+    font-size: 20px;
+}
+header .DW span{
+    font-size: 15px;
+    margin-left: 5px;
+    color: #666;
+   
+}
+header nav{
+    width: 1100px;
+    height: 45px;
+    margin-left: 390px;
+    float: left;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+    line-height: 45px;
+}
+header nav ul li a{
+    color: #666;
+    text-decoration: none;
+    border-right: 1px solid #666;
+    padding: 0 20px;
+    font-size: 17px;
+}
+header nav ul li .last{
+    border-right: 0px;
+}
+/* logo部分 */
+.container{
+    width: 100%;
+    height: 175px;
+    border-bottom: 1px solid #dddddd;
+}
+.container .img{
+    width: 240px;
+    height: 175px;
+    margin-left: -67px;
+    float: left;
+}
+.container section{
+    width: 1030px;
+    height: 175px;
+    float: left;
+}
+.container section .nan{
+    margin-top: 33px;
+    width: 695px;
+    height: 40px;
+    border: 2px solid red;
+    margin-left: 90px;
+    float: left;
+}
+.container section .nan input{
+    width: 540px;
+    height: 40px;
+    float: left;
+    border: 0px;
+    padding-left: 10px;
+}
+.container section .nan .camera{  
+    float: left;
+    width: 70px; 
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.container section .nan .search{
+    float: left;
+    width: 75px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center; 
+    background-color: red;
+}
+.container section .nan .camera a{
+    color: #666;
+}
+.container section .nan .search a{
+    font-size: 23px;
+    color: white;
+}
+.container section button{
+    width: 163px;
+    height: 42px;
+    float: left;
+    background-color: white;
+    color: red;
+    border: 1px solid #999;
+    margin-top: 33px;
+    margin-left: 22px;
+}
+.container .code{
+    width: 96px;
+    height: 93px;
+    margin-left: 48px;
+    float: left;
+}
+.container section a i,span{
+    font-size: 17px;
+    margin-left: 5px;
+}
+.container section .nav2{
+    width: 690px;
+    margin-top: 85px;
+    margin-left: 90px;
+}
+.container section .nav2 ul li{
+    margin-right: 14px;
+}
+.container section .nav2 ul li a{
+    color: #999;
+}
+.container section .CNfoot{
+    width: 990px;
+    margin-top: 144px;
+    margin-left: 20px;
+}
+.container section .CNfoot ul li{
+    margin-right: 30px;
+}
+.container section .CNfoot ul li a{
+    font-size: 20px;
+    color: #5e5e5e;
+}
+/* 内容部分 */
+main{
+    width: 100%;
+    height: 620px;
+    background-color: #eeeeee;
+}
+main aside{
+    width: 240px;
+    height: 605px;
+    background-color: white;
+    margin-left: 202px;
+    margin-top: 10px;
+    float: left;
+}
+main aside ul{
+    margin-top: 22px;
+    margin-left: 22px;
+    margin-right: 40px;
+}
+main aside ul li{
+    padding: 2px 5px;
+}
+main aside ul li a{
+    color: #999;
+    font-size: 18px;
+}
+main article{
+    width: 740px;
+    height: 605px;
+    margin-top: 10px;
+    background-color: pink;
+    float: left;
+    margin-left: 14px;
+}
+main section{
+    width: 240px;
+    height: 605px;
+    float: left;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+main section [class *=item]{
+    width: 240px;
+    height: 187px;
+    margin-bottom: 10px;
+}
+main .section{
+    width: 240px;
+    height: 605px;
+    background-color: white;
+    float: left;
+    margin-left: 14px;
+    margin-top: 10px;
+    float: left;
+}
+main .section .header{
+    width: 248px;
+    height: 190px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+main .section .header .logo2{
+    float: left;
+}
+main .section .header .WB{
+    float: left;
+}
+main .section .header .DC{
+    margin-top: 3px;
+    margin-left: 5px;
+}
+main .section .header .DC a{
+    color: #333;
+    border-right: 1px solid #ce9966;
+    padding-right: 5px;
+    font-size: 16px;
+}
+main .section .header .DC .last{
+    border-right: 0px;
+}
+main .section .main{
+    margin-top: -120px;
+    margin-left: 25px;
+}
+main .section .main .first{
+    width: 85px;
+    height: 33px;
+    background-color: red;
+    border-radius: 16px;
+}
+main .section .main .first a{
+   color: white;
+    font-size: 16px;
+}
+main .section .main .last{
+    width: 85px;
+    height: 33px;
+    background-color: black;
+    border-radius: 16px;
+}
+main .section .main .last a{
+    color: #ce9966;
+    font-size: 16px;
+}
+main .section .LP{
+    width: 200px;
+    height: 135px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+main .section .LP .last{
+    float: right;
+    margin-right: 10px;
+}
+main .section .LP i{
+    margin-left: 5px;
+}
+main .section .LP ul{
+    margin-top: 10px;
+}
+main .section .LP ul li a{
+    color: #333;
+}
+main .section .LP ul li span{
+    padding-right: 8px;
+    color: orange;
+}
+/* 界面选购 1*/
+.content-header{
+    width: 100%;
+    height: 400px;
+}
+.content{
+    width: 1498px;
+    height: 328px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-top: 1px solid #666;
+}
+.content .count{
+    width: 240px;
+    height: 328px;
+    background-color: red;
+    float: left;
+}
+.content .count p{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 35px;
+    color: white;
+}
+.content .count .SD{
+    font-size: 50px;
+   padding-left: 90px;
+   padding-top: 40px;
+   color: white;
+}
+.content .count .SJ{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.content .count .SJ span{
+    color: white;
+    font-size: 20px;
+}
+.content .count .DJ span{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: block;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+[class *=icon]{
+    width: 250px;
+    height: 328px;
+    float: left;
+    border-right: 1px solid #efefef;
+}
+.content [class *=icon] .WZ-1{
+    padding-top: 20px;
+    padding-left: 35px;
+}
+.content [class *=icon] .JG{
+    width: 60px;
+    height: 16px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: red;
+}
+.content .icon-5 .WZ-1{
+    padding-top: 30px;
+    font-size: 16px;
+    color: black;
+}
+.content .icon-5 .JG button{
+    width: 100px;
+    height: 30px;
+    color: red;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid red;
+}
+/* 选购界面 2 */
+.banner{
+    width: 1515px;
+    height: 500px;
+    margin: 0 auto;
+    border-top: 1px solid #666;
+}
+.banner [class *=XP]{
+    width: 361px;
+    height: 425px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.banner [class *=XP] p{
+    padding-left: 20px;
+    font-size: 30px;
+}
+.banner [class *=XP] p i{
+    padding-left: 10px;
+}
+.banner [class *=XP] img{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.banner [class *=XP] [class *=WZ]{
+    padding-left: 45px;
+    padding-top: 20px;
+}
+.banner .XP-2 .aside{
+   padding-top: 10px;
+   padding-left: 10px;
+}
+.banner .XP-2 .aside button{
+    margin-right: 5px;
+    width: 79px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+    color: #999999;
+    padding: 5px 5px;
+}
+.banner .XP-2 .aside button:hover{
+    background-color: red;
+    color: white;
+}
+.banner .XP-2 ul li{
+    width: 343px;
+    height: 90px;
+    background-color: #666;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.banner .XP-3 ul li{
+    width: 343px;
+    height: 157px;
+    background-color: #666;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.banner .XP-4 ul li{
+    width: 343px;
+    height: 157px;
+    background-color: #666;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
